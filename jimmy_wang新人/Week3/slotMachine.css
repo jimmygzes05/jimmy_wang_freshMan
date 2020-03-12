@@ -1,0 +1,71 @@
+body{
+    background-color: #80A1D4;
+}
+#score {
+    width: 780px;
+    height: 75px;
+    margin: auto;
+    text-align: center;
+    color: #ff4411;
+    font-size: 46px;
+    font-family: 'Signika', sans-serif;
+    background-color: #E6EED4;
+}
+
+.slot {
+    width: 780px;
+    height: 455px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    border: solid 2px;
+    background-color: #E6EED4;
+}
+
+#rule{
+    width: 400px;
+    height: 455px;
+    position: absolute;
+    margin-left: 10%;
+    font-size: 22px;
+    color: #FFCA6D;
+
+}
+
+div[class*="reel"] {
+    display: inline-block;
+    width: 150px;
+    position: relative;
+    top: -165px
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+
+}
+
+#buttonZone {
+    text-align: center;
+    width: 780px;
+    height: 75px;
+    margin: auto;
+    padding-top: 30px;
+    background-color: #E6EED4;
+}
+
+button {
+    background-color: #6B9766; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  #stop{background-color: #B57A7D;}

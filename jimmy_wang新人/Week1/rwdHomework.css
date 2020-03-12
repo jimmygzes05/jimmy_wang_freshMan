@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+button {
+    border: 2px solid black;
+    background-color: black;
+    border-color: #2196F3;
+    color: dodgerblue;
+    padding: 7px 14px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header {
+    position: relative;
+    height: 0;
+    padding-bottom: 45%;
+    background-image: url("img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header>.title {
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    bottom: 0;
+    left: 30%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+}
+
+img:hover {
+    opacity: 0.7;
+}
+
+div.star {
+    border: 1px solid #ccc;
+    background-color: black;
+    position: relative;
+    display: inline-block;
+}
+
+div.desc {
+
+    color: white;
+    height: 70px;
+    padding: 10px;
+    margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    text-align: left;
+}
+
+
+.gallery {
+    float: left;
+    width: 19.9999%;
+}
+
+.modal-content{
+    background-color: black;
+    color: white;
+}
+
+.modal-body p {
+    line-height: 10px;
+}
+
+P>b {
+    color: yellow;
+    font-size: 20px;
+}
+
+.mytooltip {
+    display: block;
+    left: 50%;
+    visibility: hidden;
+    width: 120px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+a:hover span {
+    visibility: visible;
+    display: block;
+}
+
+#toTop {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    z-index: 99;
+    padding: 15px;
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .gallery {
+        width: 49.9999%;
+    }
+
+    .header>.title {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .gallery {
+        width: 100%;
+    }
+
+    .header>.title {
+        font-size: 12px;
+    }
+}

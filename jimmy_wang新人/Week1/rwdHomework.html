@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="rwdHomework.css">
+    <script src="https://kit.fontawesome.com/c02e0b87c8.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="rwdHomework.js"></script>
+
+</head>
+
+<body>
+    <i id="toTop" class="fas fa-angle-double-up fa-2x" style="color: orange;" onclick="toTop()"></i>
+    <div class="header">
+        <div class="title">
+            <h1>NBA 2019-20 Top 10 Players</h1>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="star">
+            <a href="https://youtu.be/5JWAx19dmbk" target="_blank">
+                <img src="img/01kawhi_leonard.jpg" width="600" height="400">
+                <span class="mytooltip">Kawhi Leonard</span>
+            </a>
+            <div class="desc">
+                <button type="button" data-toggle="modal" data-target="#Leonard">
+                    Read More
+                </button>
+
+            </div>
+            <div class="modal fade" id="Leonard" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">NO.1 Kawhi Leonard</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p><b>Career Honor</b></p>
+                            <p>2x NBA champion</p>
+                            <p>2x NBA Finals MVP </p>
+                            <p>3x NBA All-Star</p>
+                            <p>3x All-NBA Team </p>
+                            <p>(2 First, 1 Second)</p>
+                            <p>2x NBA DPOY</p>
+                            <p>5x All-Defensive Team</p>
+                            <p>(3 First, 2 Second) </p>
+                            <p>NBA All-Rookie First Team</p>
+                            <p><b>Last Year Statistics</b></p>
+                            <p>Pts: 26.6</p>
+                            <p> Reb: 7.3 </p>
+                            <p> Ast: 3.3 </p>
+                            <p> Stl: 1.8 </p>
+                            <p> Blk: 0.4 </p>
+                            <p> FG%: 49.6</p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="gallery">
+        <div class="star">
+            <a href="https://www.youtube.com/watch?v=AqspfYQ-pN8" target="_blank">
+                <img src="img/02lebron_james.jpg" width="600" height="400">
+                <span class="mytooltip">Lebron James</span>
+            </a>
+            <div class="desc">
+                <button type="button" data-toggle="modal" data-target="#Lebron">
+                    Read More
+                </button>
+
+            </div>
+            <div class="modal fade" id="Lebron" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">NO.2 Lebron James</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p><b>Career Honor</b></p>
+                            <p>3x NBA champion</p>
+                            <p>3x NBA Finals MVP</p>
+                            <p>4x NBA MVP</p>
+                            <p>2x Olympic Gold Medal</p>
+                            <p>15x NBA All-Star</p>
+                            <p>3x NBA All-Star MVP</p>
+                            <p>15x All-NBA Team</p>
+                            <p>(12 First, 2 Second, 1 Third)</p>
+                            <p>6x All-Defensive Team</p>
+                            <p>(5 First, 1 Second)</p>
+                            <p>NBA Rookie of the Year</p>
+                            <p>NBA All-Rookie First Team</p>
+                            <p><b>Last Year Statistics</b> </p>
+                            <p>Pts: 27.4 </p>
+                            <p>Reb: 8.5 </p>
+                            <p>Ast: 8.3 </p>
+                            <p>Stl: 1.3 </p>
+                            <p>Blk: 0.6 </p>
+                            <p>FG%: 51.0</p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="gallery">
+        <div class="star">
+            <a href="https://www.youtube.com/watch?v=R8LFTq3FYBQ" target="_blank">
+                <img src="img/03giannis_antetokounmpo.jpg" width="600" height="400">
+                <span class="mytooltip">Giannis Antetokounmpo</span>
+            </a>
+
+            <div class="desc">
+                <button type="button" data-toggle="modal" data-target="#Giannis">
+                    Read More
+                </button>
+
+            </div>
+            <div class="modal fade" id="Giannis" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">NO.3 Giannis Antetokounmpo</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p><b>Career Honor</b></p>
+                            <p>1x NBA MVP </p>
+                            <p>3x NBA All-Star </p>
+                            <p>3x All-NBA Team </p>
+                            <p>(1 First, 2 Second) </p>
+                            <p>2x All-Defensive Team </p>
+                            <p>(1 First, 1 Second) </p>
+                            <p>NBA All-Rookie Second Team </p>
+                            <p><b>Last Year Statistics</b> </p>
+                            <p>Pts: 27.7 </p>
+                            <p>Reb: 12.5 </p>
+                            <p>Ast: 5.9 </p>
+                            <p>Stl: 1.3 </p>
+                            <p>Blk: 1.5 </p>
+                            <p>FG%: 57.8</p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="gallery">
+        <div class="star">
+            <a href="https://www.youtube.com/watch?v=Ut77e5ra83U" target="_blank">
+                <img src="img/04james_harden.jpg" width="600" height="400">
+                <span class="mytooltip">James Harden</span>
+            </a>
+
+            <div class="desc">
+                <button type="button" data-toggle="modal" data-target="#Harden">
+                    Read More
+                </button>
+
+            </div>
+            <div class="modal fade" id="Harden" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">NO.4 James Harden</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p><b>Career Honor</b></p>
+                            <p>1x NBA MVP </p>
+                            <p>1x Olympic Gold Medal </p>
+                            <p>7x NBA All-Star </p>
+                            <p>6x All-NBA Team </p>
+                            <p>(5 First, 1 Third) </p>
+                            <p>1x NBA Sixth Man of the Year </p>
+                            <p>NBA All-Rookie Second Team </p>
+                            <p><b>Last Year Statistics</b> </p>
+                            <p>Pts: 36.1 </p>
+                            <p>Reb: 6.6 </p>
+                            <p>Ast: 7.5 </p>
+                            <p>Stl: 2.0 </p>
+                            <p>Blk: 0.7 </p>
+                            <p>FG%: 44.2</p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="gallery">
+        <div class="star">
+            <a href="https://www.youtube.com/watch?v=y0vO18NkbKI" target="_blank">
+                <img src="img/05steph_curry.jpg" width="600" height="400">
+                <span class="mytooltip">Stephen Curry</span>
+            </a>
+            <div class="desc">
+                <button type="button" data-toggle="modal" data-target="#Curry">
+                    Read More
+                </button>
+
+            </div>
+            <div class="modal fade" id="Curry" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">NO.5 Stephen Curry</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p><b>Career Honor</b></p>
+                            <p>3x NBA champion </p>
+                            <p>2x NBA MVP </p>
+                            <p>6x NBA All-Star </p>
+                            <p>6x All-NBA Team </p>
+                            <p>(3 First, 2 Second, 1 Third) </p>
+                            <p>NBA All-Rookie First Team </p>
+                            <p><b>Last Year Statistics</b> </p>
+                            <p>Pts: 27.3 </p>
+                            <p>Reb: 5.3 </p>
+                            <p>Ast: 5.2 </p>
+                            <p>Stl: 1.3 </p>
+                            <p>Blk: 0.4 </p>
+                            <p>FG%: 47.2</p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="gallery">
+        <div class="star">
+            <a href="https://www.youtube.com/watch?v=dkcF9oJG0_c" target="_blank">
+                <img src="img/06anthony_davis.jpg" width="600" height="400">
+                <span class="mytooltip">Anthony Davis</span>
+            </a>
+            <div class="desc">
+                <button type="button" data-toggle="modal" data-target="#Davis">
+                    Read More
+                </button>
+
+            </div>
+            <div class="modal fade" id="Davis" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">NO.6 Anthony Davis</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p><b>Career Honor</b></p>
+                            <p>1x Olympic Gold Medal </p>
+                            <p>6x NBA All-Star </p>
+                            <p>1x NBA All-Star MVP </p>
+                            <p>3x All-NBA Team </p>
+                            <p>(3 First) </p>
+                            <p>3x All-Defensive Team </p>
+                            <p>(1 First, 2 Second) </p>
+                            <p>NBA All-Rookie First Team </p>
+                            <p><b>Last Year Statistics</b></p>
+                            <p>Pts: 25.9 </p>
+                            <p>Reb: 12.0 </p>
+                            <p>Ast: 3.9 </p>
+                            <p>Stl: 1.6 </p>
+                            <p>Blk: 2.4 </p>
+                            <p>FG%: 51.7</p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="gallery">
+        <div class="star">
+            <a href="https://www.youtube.com/watch?v=zVJDIWafQdA" target="_blank">
+                <img src="img/07paul_george.jpg" width="600" height="400">
+                <span class="mytooltip">Paul George</span>
+            </a>
+
+            <div class="desc">
+                <button type="button" data-toggle="modal" data-target="#George">
+                    Read More
+                </button>
+
+            </div>
+            <div class="modal fade" id="George" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">NO.7 Paul George</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p><b>Career Honor</b></p>
+                            <p>1x Olympic Gold Medal </p>
+                            <p>6x NBA All-Star </p>
+                            <p>5x All-NBA Team </p>
+                            <p>(1 First, 4 Third) </p>
+                            <p>4x All-Defensive Team </p>
+                            <p>(2 First, 2 Second) </p>
+                            <p>NBA All-Rookie Second Team </p>
+                            <p><b>Last Year Statistics</b> </p>
+                            <p>Pts: 28.0 </p>
+                            <p>Reb: 8.2 </p>
+                            <p>Ast: 4.1 </p>
+                            <p>Stl: 2.2 </p>
+                            <p>Blk: 0.4 </p>
+                            <p>FG%: 43.8</p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="gallery">
+        <div class="star">
+            <a href="https://www.youtube.com/watch?v=G4aSsL2T214" target="_blank">
+                <img src="img/08joel_embiid.jpg" width="600" height="400">
+                <span class="mytooltip">Joel Embiid</span>
+            </a>
+
+
+            <div class="desc">
+                <button type="button" data-toggle="modal" data-target="#Embiid">
+                    Read More
+                </button>
+
+            </div>
+            <div class="modal fade" id="Embiid" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">NO.8 Joel Embiid</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p><b>Career Honor</b></p>
+                            <p>2x NBA All-Star </p>
+                            <p>2x All-NBA Team </p>
+                            <p>(2 Second) </p>
+                            <p>2x All-Defensive Team </p>
+                            <p>(2 Second) </p>
+                            <p>NBA All-Rookie First Team </p>
+                            <p><b>Last Year Statistics</b> </p>
+                            <p>Pts: 27.5 </p>
+                            <p>Reb: 13.6 </p>
+                            <p>Ast: 3.7 </p>
+                            <p>Stl: 0.7 </p>
+                            <p>Blk: 1.9 </p>
+                            <p>FG%: 48.4</p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="star">
+            <a href="https://www.youtube.com/watch?v=ED0ZF4AY8BA" target="_blank">
+                <img src="img/09russell_westbrook.jpg" width="600" height="400">
+                <span class="mytooltip">Russell Westbrook</span>
+            </a>
+
+            <div class="desc">
+                <button type="button" data-toggle="modal" data-target="#Westbrook">
+                    Read More
+                </button>
+
+            </div>
+            <div class="modal fade" id="Westbrook" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">NO.9 Russell Westbrook</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p><b>Career Honor</b></p>
+                            <p>1x NBA MVP </p>
+                            <p>8x NBA All-Star </p>
+                            <p>2x NBA All-Star MVP </p>
+                            <p>1x Olympic Gold Medal </p>
+                            <p>8x All-NBA Team </p>
+                            <p>(2 First, 5 Second, 1 Third) </p>
+                            <p>NBA All-Rookie First Team </p>
+                            <p><b>Last Year Statistics</b></p>
+                            <p>Pts: 22.9 </p>
+                            <p>Reb: 11.1 </p>
+                            <p>Ast: 10.7 </p>
+                            <p>Stl: 1.9</p>
+                            <p>Blk: 0.5 </p>
+                            <p>FG%: 42.8</p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="gallery">
+        <div class="star">
+            <a href="https://www.youtube.com/watch?v=kxo4vusn8fk" target="_blank">
+                <img src="img/10kevin_durant.jpg" width="600" height="400">
+                <span class="mytooltip">Kevin Durant</span>
+            </a>
+
+            <div class="desc">
+                <button type="button" data-toggle="modal" data-target="#Durant">
+                    Read More
+                </button>
+
+            </div>
+            <div class="modal fade" id="Durant" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">NO.10 Kevin Durant</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p><b>Career Honor</b></p>
+                            <p>2x NBA champion </p>
+                            <p>2x NBA Finals MVP </p>
+                            <p>1x NBA MVP </p>
+                            <p>2x Olympic Gold Medal </p>
+                            <p>10x NBA All-Star </p>
+                            <p>2x NBA All-Star MVP </p>
+                            <p>9x All-NBA Team </p>
+                            <p>(6 First, 3 Second)</p>
+                            <p>6x All-Defensive Team </p>
+                            <p>(5 First, 1 Second) </p>
+                            <p>NBA Rookie of the Year </p>
+                            <p>NBA All-Rookie First Team </p>
+                            <p><b>Last Year Statistics</b> </p>
+                            <p>Pts: 26.0 </p>
+                            <p>Reb: 6.4 </p>
+                            <p>Ast: 5.9 </p>
+                            <p>Stl: 0.7 </p>
+                            <p>Blk: 1.1</p>
+                            <p>FG%: 52.1</p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+body {
+    background-color: #FFD580;
+}
+
+#header {
+    background-color: #FFC95D;
+    text-align: center;
+    height: 150px;
+
+}
+
+#header h1 {
+    padding-top: 50px;
+    color: #c08816;
+}
+
+
+#rightSide {
+    height: 350px;
+    color: #4D349F;
+    font-size: 22px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+#content {
+    height: 350px;
+    text-align: center;
+}
+
+.input-group {
+    margin: auto;
+    margin-top: 40px;
+}
+
+#content #inputZone {
+    padding-top: 100px;
+}
+
+#inputZone h2 {
+    color: #4D349F;
+}

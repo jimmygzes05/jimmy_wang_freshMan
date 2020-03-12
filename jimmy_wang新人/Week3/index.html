@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.0.1/dist/gsap.min.js"></script>
+    <link rel="stylesheet" href="slotMachine.css">
+</head>
+
+<body>
+        <div id="rule">
+                <h3>遊戲規則</h3> 
+                <p>1. 玩一次100</p>
+                <p>2. 上面顯示總共獲得多少錢</p>
+                <p>3. Start開始，Stop停止</p>
+                <p>4. 畫面上有一樣的圖案且必須相鄰：</p>
+                <p style="padding-left: 22px;">3個得200</p>
+                <p style="padding-left: 22px;">4個得1000</p>
+                <p style="padding-left: 22px;">5個得5000</p>
+                <h4>您已花了：<span id="cost">0</span>元</h4>
+                <h4>淨賺：<span id="earn">0</span>元</h4>
+                
+        </div>
+    <div id="score">0</div>
+    <div class="slot">
+        <div class="reel1">
+        </div>
+        <div class="reel2">
+        </div>
+        <div class="reel3">
+        </div>
+        <div class="reel4">
+        </div>
+        <div class="reel5">
+        </div>
+    </div>
+    <div id="buttonZone">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+    </div>
+
+    <script src="slotMachine.js"></script>
+</body>
+
+</html>
